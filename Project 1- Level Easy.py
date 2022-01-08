@@ -18,14 +18,14 @@ interest = input("What do you enjoy most?\n")
 
 # Using Concatination
 
-message = "Hey! Genious! We got you here.\nYour name is " + name +"." + "\nYou are "+ str(age) +" years old.\nYou live in "+ city +".\nYou love "+ interest +".\nThese is all we know about you. Hope you are doing fine."
+message = "Hey! Genius! We got you here.\nYour name is " + name +"." + "\nYou are "+ str(age) +" years old.\nYou live in "+ city +".\nYou love "+ interest +".\nThese is all we know about you. Hope you are doing fine."
 
 print(message)
 
 
 # Using string format
 
-message = "Hey! Genious! We got you here.\nYour name is {}.\nYou are {} years old.\nYou live in {}.\nYou love {}.\nHope you are doing fine!\nFor now, These is all we know about you." 
+message = "Hey! Genius! We got you here.\nYour name is {}.\nYou are {} years old.\nYou live in {}.\nYou love {}.\nHope you are doing fine!\nFor now, These is all we know about you." 
 
 output = message.format(name, age, city, interest)
 
